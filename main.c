@@ -32,7 +32,6 @@ int main(int argc, char *argv[]) {
     }
 
     return 0;
-
 }
 
 void montar_disco() {
@@ -60,7 +59,6 @@ void desmontar_disco() {
         perror("Falha ao desmontar disco");
     }
 }
-
 
 void ajuda() {
     printf("----------------------------------\n");
